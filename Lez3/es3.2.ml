@@ -6,4 +6,4 @@ fun cyclei(i: int, L: 'a list)=
     then tl(L) @ [hd(L)]
     else cyclei(i-1, tl(L) @ [hd(L)]);
 
-val r = cyclei (1, [1,2,3,4]
+val r = cyclei (2, [1,2,3,4]);
