@@ -1,5 +1,5 @@
 (*Write a function maxList that computes the largest (in alexicographical sense)
-element of a list of strings, It doesn't need to work for empty lists.
+element of a list of strings.
 Done with pattern matching*)
 
 fun maxList([x]: string list)= x
