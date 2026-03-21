@@ -3,7 +3,7 @@
 
 fun cyclei(i: int, L: 'a list)=
     if(i=0)
-    then tl(L) @ [hd(L)]
+    then L
     else cyclei(i-1, tl(L) @ [hd(L)]);
 
 val r = cyclei (2, [1,2,3,4]);
